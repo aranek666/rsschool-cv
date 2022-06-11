@@ -1,3 +1,29 @@
-p {
-    color: red;
+body {
+    background-color: rgb(229, 229, 229);
+}
+.foundation {
+   display: flex;
+   justify-content: center; 
+}
+.cat {
+    width: 250px;   
+}
+.name {
+    padding: 20px;
+    margin: 0;
+}
+.cat-column {
+    background-color: rgb(104, 104, 104);
+    padding: 20px;
+    border: 2px solid black
+}
+.info {
+    padding: 10px;
+}
+.text {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
