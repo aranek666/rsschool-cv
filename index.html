@@ -15,6 +15,7 @@
                 <h2>Contact me</h2>
                 <p class="text">discord: prizrak#1257</p>
             </div>
+            <hr class="hr-cat">
             <div class="info">
                 <h2 >Skills</h2>
                 <ul>
@@ -35,6 +36,7 @@
                     </li>
                 </ul>
             </div>
+            <hr class="hr-cat">
             <div class="info">
                 <h2>Work Examples</h2>
                 <ul>
@@ -42,7 +44,34 @@
                 </ul>
             </div>
         </div>
-        <h1 class="name">Eugeny Pogudo</h1>
+        <div class="name-column">
+            <div>
+                <h1 class="name">Eugeny Pogudo</h1>
+                <p class="text"> learning programming</p>
+            </div>
+            <hr class="hr-name">
+            <div>
+                <h1>Code example</h1>
+                <pre><code>
+function persistence(num, count = 0) {  
+    if (num > 9) {
+    let nums = num.toString().split('');
+    let numsReduce = nums.reduce((a, b) => a * +b);
+                            
+    if (numsReduce > 9) { 
+        return persistence(numsReduce,count + 1);
+        } else {
+            return count + 1;
+        }
+    } else {
+            return count;
+    }
+}
+                </code></pre>
+            </div>
+            <hr class="hr-name">
+            <footer>hello</footer>
+        </div>
     </div>
 </body>
 </html>

@@ -3,19 +3,23 @@ body {
 }
 .foundation {
    display: flex;
-   justify-content: center; 
+   justify-content: center;
+   
+
 }
 .cat {
     width: 250px;   
 }
 .name {
-    padding: 20px;
-    margin: 0;
+   padding: 0;
+   
 }
 .cat-column {
     background-color: rgb(104, 104, 104);
     padding: 20px;
-    border: 2px solid black
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .info {
     padding: 10px;
@@ -26,4 +30,29 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+.name-column {
+    background-color: white;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    width: 30em;
+}
+.hr-cat {
+    border: none; 
+    background-color: white;
+    color: white; 
+    height: 1px;
+}
+.hr-name {
+    border: none; 
+    background-color: black;
+    color: black; 
+    height: 1px;
+}
+footer {
+    display: flex;
+    
+    border: 1px solid black;
 }
