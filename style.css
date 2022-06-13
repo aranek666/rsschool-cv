@@ -62,7 +62,8 @@ a {
 footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(229, 229, 229);
+    padding-top: 40px;
+    background-color: white;
 }
 .rs_img {
     width: 10em;
