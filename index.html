@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class='foundation'>
+        <div class="cat-column">
+            <img class='cat' src="cat.jpg" alt="фотография не загружена">
+            <div class="info">
+                <h2 class="color-white">Contact me</h2>
+                <hr class="hr-cat">
+                <ul>
+                    <li class="color-white">
+                        <p class="text">discord: prizrak#1257</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="info">
+                <h2 class="color-white">Skills</h2>
+                <hr class="hr-cat">
+                <ul>
+                    <li class="color-white">
+                        <p class="text">HTML basics</p>
+                    </li>
+                    <li class="color-white">
+                        <p class="text">CSS basics</p>
+                    </li>
+                    <li class="color-white">
+                        <p class="text">GIT basics</p>
+                    </li>
+                    <li class="color-white">
+                        <p class="text">JS basics</p>
+                    </li>
+                    <li class="color-white">
+                        <p class="text">English: A2</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="info">
+                <h2 class="color-white">Work Examples</h2>
+                <hr class="hr-cat">
+                <ul>
+                    <li class="color-white"><a class="color-white" href="https://github.com/aranek666/rsschool-cv/blob/gh-pages/cv.md">My CV</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="name-column">
+            <div>
+                <header>
+                    <h1 class="name">Eugeny Pogudo</h1>
+                </header>
+                <p class="text-name"> learning programming</p>
+            </div>
+            <hr class="hr-name">
+            <div>
+                <h1 class="code">Code examples</h1>
+                <hr class="hr-name">
+                <pre><code class="color-grey">
+function persistence(num, count = 0) {  
+    if (num > 9) {
+    let nums = num.toString().split('');
+    let numsReduce = nums.reduce((a, b) => a * +b);
+                            
+    if (numsReduce > 9) { 
+        return persistence(numsReduce,count + 1);
+        } else {
+            return count + 1;
+        }
+    } else {
+            return count;
+    }
+}
+                </code></pre>
+                <hr class="hr-name">
+                <pre><code  class="color-grey">
+function declareWinner(f1, f2, fa) {
+    if (fa == f1.name && f1.health > 0 && f2.health > 0) {
+        f2.health = f2.health - f1.damagePerAttack
+        return declareWinner(f1, f2, f2.name)
+    } else if (fa == f2.name && f1.health > 0 && f2.health > 0){
+        f1.health = f1.health - f2.damagePerAttack
+        return declareWinner(f1, f2, f1.name)
+    } else if (f1.health > 0){
+        return f1.name
+    } else {
+        return f2.name
+    }
+}
+                </code></pre>
+                <footer>
+                    <nav>
+                        <a href="https://rs.school/"><img class="rs_img" src="rs_school_js.svg" alt="иконка не загружена"></a>
+                        <a href="https://github.com/aranek666"><img class="git_img" src="git.svg" alt="иконка не загружена"></a>
+                    </nav>  
+                        <p class="year">2022</p>
+                   
+                </footer>
+            </div>
+        </div>      
+    </div>
+   
+</body>
+</html>

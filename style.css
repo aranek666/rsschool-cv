@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(229, 229, 229);
+}
+.foundation {
+   display: flex;
+   justify-content: center;
+   
+
+}
+.cat {
+    width: 250px;   
+}
+.name {
+   padding: 0;
+   color: rgb(104, 104, 104);
+   padding-bottom: 10px;
+   
+}
+.cat-column {
+    background-color: rgb(104, 104, 104);
+    padding: 20px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.info {
+    padding: 10px;
+}
+.text {
+    font-size: 18px;
+    color: white;
+}
+.text-name {
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.name-column {
+    background-color: white;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    width: 32%;
+    min-width: 450px;
+}
+.hr-cat {
+    border: none; 
+    background-color: white;
+    color: white; 
+    height: 1px;
+}
+.hr-name {
+    border: none; 
+    background-color: rgb(104, 104, 104);
+    color: rgb(104, 104, 104); 
+    height: 2px;
+    
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    background-color: white;
+}
+.rs_img {
+    width: 10em;
+}
+.year {
+    font-size: 21px;
+}
+.color-grey {
+    color: rgb(104, 104, 104);
+}
+.color-white {
+    color: white;
+}
+.code {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: rgb(104, 104, 104);
+}
+.git_img {
+    width: 4em;
+    padding-left: 30px;
+}
