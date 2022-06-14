@@ -45,6 +45,7 @@ a {
     border-bottom: 1px solid black;
     padding: 20px;
     width: 32%;
+    min-width: 450px;
 }
 .hr-cat {
     border: none; 
