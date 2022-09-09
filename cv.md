@@ -21,7 +21,7 @@ if (num > 9) {
     }
 }
 ```
-## 6. -
+## 6. none
 ## 7. html academy.
 ## 8. i think A2
 ## 9. [CV link](https://github.com/aranek666/rsschool-cv/blob/gh-pages/cv.md)
