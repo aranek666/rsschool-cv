@@ -1,5 +1,5 @@
 # **CV**
- 
+
 ## 1. Eugeny Pogudo
 ## 2. Discrod aranek(@aranek666)
 ## 3. i am 18 years old, i want to become a react developer
@@ -18,7 +18,7 @@ if (num > 9) {
   }
 } else {
       return count;
-    }
+    } 
 }
 ```
 ## 6. -
